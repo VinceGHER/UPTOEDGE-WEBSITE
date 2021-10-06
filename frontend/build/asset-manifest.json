@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df29b98b.chunk.css",
+    "main.js": "/static/js/main.26cb3c89.chunk.js",
+    "main.js.map": "/static/js/main.26cb3c89.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b6de519e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b6de519e.js.map",
+    "static/js/2.3782b0f8.chunk.js": "/static/js/2.3782b0f8.chunk.js",
+    "static/js/2.3782b0f8.chunk.js.map": "/static/js/2.3782b0f8.chunk.js.map",
+    "static/js/3.c7c52110.chunk.js": "/static/js/3.c7c52110.chunk.js",
+    "static/js/3.c7c52110.chunk.js.map": "/static/js/3.c7c52110.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.df29b98b.chunk.css.map": "/static/css/main.df29b98b.chunk.css.map",
+    "static/js/2.3782b0f8.chunk.js.LICENSE.txt": "/static/js/2.3782b0f8.chunk.js.LICENSE.txt",
+    "static/media/error.45cae892.png": "/static/media/error.45cae892.png",
+    "static/media/foodtraitor1.76f47c95.png": "/static/media/foodtraitor1.76f47c95.png",
+    "static/media/foodtraitor2.5fbf0f8d.png": "/static/media/foodtraitor2.5fbf0f8d.png",
+    "static/media/foodtraitor3.011c8cea.png": "/static/media/foodtraitor3.011c8cea.png",
+    "static/media/logo.53a90fc9.png": "/static/media/logo.53a90fc9.png",
+    "static/media/logoWhite.2e614a26.png": "/static/media/logoWhite.2e614a26.png",
+    "static/media/palette.6ae989ac.png": "/static/media/palette.6ae989ac.png",
+    "static/media/shibi.c940b968.png": "/static/media/shibi.c940b968.png",
+    "static/media/success.4294012b.png": "/static/media/success.4294012b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6de519e.js",
+    "static/js/2.3782b0f8.chunk.js",
+    "static/css/main.df29b98b.chunk.css",
+    "static/js/main.26cb3c89.chunk.js"
+  ]
+}
