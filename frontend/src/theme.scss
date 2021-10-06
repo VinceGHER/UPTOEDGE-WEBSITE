@@ -1,0 +1,29 @@
+@import "./variables.scss";
+.nav-link {
+    color:$mainColor;
+    transition: color 0.15s ease-in-out;
+    transition-property: color;
+    transition-duration: 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s;
+}
+
+.btn-mainColor {
+    border: 2px solid $mainColor;
+    border-radius: 15px;
+    color: $mainColor;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-mainColor:hover {
+    background-color:$mainColor;
+    color: $secondaryColor;
+}
+.active {
+    background-color: $mainColor ;
+    color:$secondaryColor;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.22rem rgba($mainColor, .15);
+}

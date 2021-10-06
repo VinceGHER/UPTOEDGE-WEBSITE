@@ -1,0 +1,62 @@
+$mainColor:#038DFF;
+$secondaryColor: white;
+$itemContrast: #BBBBBB;
+$itemBackground: #E8E8E8;
+$thirdColor:#141C3A;
+
+// Required
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+$primary:$mainColor;
+$Secondary: $secondaryColor;
+
+// Merge the maps
+$theme-colors: (
+    "primary":$mainColor,
+    "secondary": $secondaryColor,
+    "itemContrast": $itemContrast,
+    "action": #013E6F,
+);
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 5),
+  7: ($spacer * 8),
+  8: ($spacer * 10)
+);
+
+// Required
+@import "../node_modules/bootstrap/scss/variables";
+
+
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+@import "bootstrap/scss/utilities";
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "rounded": (
+      property: border-radius,
+      class: rounded,
+      values: (
+        null: $border-radius,
+        0: 0,
+        1: $border-radius-sm,
+        2: $border-radius,
+        3: $border-radius-lg,
+        4: 20px,
+        circle: 50%,
+        pill: $border-radius-pill
+      )
+    ),
+  )
+);

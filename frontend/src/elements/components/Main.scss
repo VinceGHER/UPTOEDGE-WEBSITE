@@ -1,0 +1,71 @@
+@import "../../variables.scss";
+
+//First Section
+#title {
+  color: $thirdColor;
+  font-weight: bold;
+  font-size: 2.9rem;
+  margin-top: 50px;
+}
+
+#hoverTitle {
+    color: $mainColor;
+
+}
+#titleEnd {
+    margin-top:-5px;
+}
+#descriptionTitle {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+#shibi {
+    padding-top:50px;
+}
+
+
+//second section
+
+.colorTheme {
+    background-color:$mainColor;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: -1;
+}
+#hello {
+    color: $secondaryColor;
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 1.5rem;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#intro {
+    margin-top: 20px;
+    padding: 0px 40px 0px 40px;
+    width: 60rem;
+    color: $secondaryColor
+}
+
+#call{
+
+margin-top: -3.5rem;
+z-index: -1;
+  }
+
+  .mouseAnimation:hover {
+    transform: scale(1.03);
+   }
+
+  .mouseAnimation {
+    transition: all ease 200ms;
+  }
+
+
+  .btn-secondary:hover{
+      border-color: $mainColor !important;
+      background-color: $mainColor !important;
+      color: $secondaryColor !important;
+  }

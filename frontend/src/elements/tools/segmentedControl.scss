@@ -1,0 +1,22 @@
+@import "../../variables.scss";
+
+
+.segmentBackground {
+    background-color: $itemBackground;
+    border-radius: 15px;
+    padding: 4px;
+}
+.nav-pills .nav-link {
+    color: $itemContrast;
+    font-weight: bold;
+}
+.nav-pills .nav-link:hover {
+    color: $thirdColor;
+
+}
+.nav-pills .nav-link.active {
+    background-color: $mainColor !important;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
